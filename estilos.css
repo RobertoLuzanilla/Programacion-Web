@@ -8,9 +8,31 @@ body {
     padding: 0;
 }
 
+
 div {
     text-align: center;
     margin: 20px;
+}
+
+.kenshi{
+    width: 720px;
+    height: 460px;
+    border-radius: 10%;
+    border: 3px solid #f5b992;
+}
+
+.natacion{
+    width: 300px;
+    height: 300;
+    border-radius: 10%;
+    border: 3px solid #f5b992;
+}
+
+.cancerbero{
+    width: 300px;
+    height: 300;
+    border-radius: 10%;
+    border: 3px solid #f5b992;
 }
 
 img {
@@ -40,9 +62,10 @@ h2 {
 }
 
 p {
+    font-weight: bold;
     font-size: 1.2em;
     line-height: 1.6;
-    color: #555;
+    color: #130d0d;
 }
 
 hr {
@@ -56,8 +79,9 @@ hr {
 
 li {
     font-size: 1.2em;
-    color: #555;
+    color: #130d0d;
     margin: 10px 0;
+    font-weight: bold;
 }
 
 ul {
