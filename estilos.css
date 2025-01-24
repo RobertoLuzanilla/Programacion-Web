@@ -1,22 +1,58 @@
 body {
-    background-color: white;
+    background-image: url('Fondo.webp');
+    background-size: cover;
+    background-position: center;
     font-family: Arial, Helvetica, sans-serif;
+    color: #fff; 
+    margin: 0;
+    padding: 0;
 }
+
 
 div {
     text-align: center;
     margin: 20px;
 }
 
+.kenshi{
+    width: 720px;
+    height: 460px;
+    border-radius: 10%;
+    border: 3px solid #f5b992;
+}
+
+.natacion{
+    width: 300px;
+    height: 300;
+    border-radius: 10%;
+    border: 3px solid #f5b992;
+}
+
+.cancerbero{
+    width: 300px;
+    height: 300;
+    border-radius: 10%;
+    border: 3px solid #f5b992;
+}
+
 img {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 3px solid #f5985b;
+    border: 3px solid #f5b992;
+}
+
+.ino1 {
+    border: 3px solid #f5b992;
+}
+
+.ino2 {
+    border-radius: 50%;
+    border: 3px solid #f5b992;
 }
 
 h1 {
-    color: #f5985b;
+    color: #000000;
     font-size: 2.5em;
 }
 
@@ -26,23 +62,26 @@ h2 {
 }
 
 p {
+    font-weight: bold;
     font-size: 1.2em;
     line-height: 1.6;
-    color: #555;
+    color: #130d0d;
 }
 
 hr {
     border: none;
     height: 2px;
-    background-color: #f5985b;
+    background-color: #333;
     margin: 20px auto;
     width: 80%;
 }
 
+
 li {
     font-size: 1.2em;
-    color: #555;
+    color: #130d0d;
     margin: 10px 0;
+    font-weight: bold;
 }
 
 ul {
